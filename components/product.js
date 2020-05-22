@@ -26,7 +26,7 @@ class Product extends React.Component {
                             </div>
                             <div className="col-12 text-center text-sm-left product-text">
 
-                                <p className="mb-0">{product.brand}</p>
+                                <p className="mb-0">{product.brands}</p>
 
                                 <h6 className="mb-0">{product.product_name}</h6>
                                 <div className="row mb-3 mt-2">

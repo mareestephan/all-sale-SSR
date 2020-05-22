@@ -26,12 +26,18 @@ export async function getServerSideProps({ params }) {
 export default class extends Component {
 
     render() {
+
+        // const meta_description_full = this.props.displayProducts[0].meta_description;
+
+        const meta_description_limit = 165;
+        const trimmed_meta_description = this.props.displayProducts[0].meta_description.substring(0, meta_description_limit);
         return (
             <div >
+                {/* content={this.props.displayProducts[0].meta_description} */}
                 <Layout>
                     <Head>
                         <title>{this.props.displayProducts[0].meta_title}</title>
-                        <meta name='description' content={this.props.displayProducts[0].meta_description} />
+                        <meta name='description' content={trimmed_meta_description} />
                         <link rel='canonical' href={this.props.displayProducts[0].canonical} />
                     </ Head>
 

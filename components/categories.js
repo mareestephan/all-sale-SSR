@@ -6,6 +6,8 @@ class Categories extends React.Component {
 
         const listItems = this.props.categories.pages_to_create.map((category) =>
 
+
+
             <div className="col-6 col-md one-quarter guide mt-0 pl-0 pl-sm-2 pr-1 pr-sm-2" key={category.category_id} >
                 <Link href='./[category] ' as={category.slug} key={category.category_id} >
 
@@ -36,7 +38,7 @@ class Categories extends React.Component {
         for (var i = 0; i < listItems.length; i++) {
             resultsRender.push(listItems[i]);
             if (i % 4 === 3) {
-                resultsRender.push(<div class="w-100 my-1 d-sm-block d-none"></div>);
+                resultsRender.push(<div className="w-100 my-1 d-sm-block d-none"></div>);
             }
         }
         return (
