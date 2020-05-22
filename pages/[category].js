@@ -2,6 +2,7 @@ import { Component } from 'react'
 // import fetch from 'isomorphic-unfetch'
 import Product from '../components/product'
 import Layout from '../components/layout'
+import Head from 'next/head'
 
 
 export async function getServerSideProps({ params }) {
@@ -28,7 +29,14 @@ export default class extends Component {
         return (
             <div >
                 <Layout>
+                    <Head>
+                        <title>{this.props.displayProducts[0].meta_title}</title>
+                        <meta name='description' content={this.props.displayProducts[0].meta_description} />
+                        <link rel='canonical' href={this.props.displayProducts[0].canonical} />
+                    </ Head>
+
                     <Product products={this.props.displayProducts} />
+
                 </Layout>
             </div>
         );
