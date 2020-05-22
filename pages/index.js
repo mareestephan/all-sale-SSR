@@ -20,7 +20,8 @@ export default function Index(props) {
 export async function getServerSideProps() {
 
   // const res = await fetch('https://my-json-server.typicode.com/mareestephan/jsonProducts/pages_to_create');
-  const res = await fetch('http://www.json-generator.com/api/json/get/ckeElWByRe?indent=2');
+  // const res = await fetch('http://www.json-generator.com/api/json/get/ckeElWByRe?indent=2');
+  const res = await fetch('http://www.json-generator.com/api/json/get/caUKNwsmdK?indent=2');
   const data = await res.json();
 
   return (
