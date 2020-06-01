@@ -9,7 +9,7 @@ class Categories extends React.Component {
 
 
             <div className="col-6 col-md one-quarter guide mt-0 pl-0 pl-sm-2 pr-1 pr-sm-2" key={category.category_id} >
-                <Link href='./[category] ' as={category.slug} key={category.category_id} >
+                <Link href='./ssr/[category] ' as={'ssr' + category.slug} key={category.category_id} >
 
 
 

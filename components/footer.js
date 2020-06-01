@@ -1,4 +1,4 @@
-
+import React from 'react'
 
 class Footer extends React.Component {
     render() {
@@ -26,19 +26,19 @@ class Footer extends React.Component {
                             <span className="heading">GET STUFF</span>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/c/fashion/f">Fashion</a>
+                                    <a href="https://www.allsale.co.za/c/fashion/f">Fashion</a>
                                 </li>
                                 <li>
-                                    <a href="/c/baby-kids/a">Baby & Kids</a>
+                                    <a href="https://www.allsale.co.za/c/baby-kids/a">Baby & Kids</a>
                                 </li>
                                 <li>
-                                    <a href="/c/health-beauty/h">Health & Beauty</a>
+                                    <a href="https://www.allsale.co.za/c/health-beauty/h">Health & Beauty</a>
                                 </li>
                                 <li>
-                                    <a href="/c/household/m">Household</a>
+                                    <a href="https://www.allsale.co.za/c/household/m">Household</a>
                                 </li>
                                 <li>
-                                    <a href="/c/homeware/l">Homeware</a>
+                                    <a href="https://www.allsale.co.za/c/homeware/l">Homeware</a>
                                 </li>
                             </ul>
                         </div>
@@ -46,16 +46,16 @@ class Footer extends React.Component {
                             <span className="heading">GET HELP</span>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/contactus">Contact Us</a>
+                                    <a href="https://www.allsale.co.za/contactus">Contact Us</a>
                                 </li>
                                 <li>
-                                    <a href="/faq">FAQs</a>
+                                    <a href="https://www.allsale.co.za/faq">FAQs</a>
                                 </li>
                                 <li>
-                                    <a href="/deliveryandreturns">Delivery & Returns</a>
+                                    <a href="https://www.allsale.co.za/deliveryandreturns">Delivery & Returns</a>
                                 </li>
                                 <li>
-                                    <a href="/joiningpage">Membership 101</a>
+                                    <a href="https://www.allsale.co.za/joiningpage">Membership 101</a>
                                 </li>
                             </ul>
                         </div>
@@ -63,16 +63,16 @@ class Footer extends React.Component {
                             <span className="heading">GET THERE FAST</span>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/account/lists?id=WishList">Your Wishlist</a>
+                                    <a href="https://www.allsale.co.za/login?returnUrl=%2faccount%2flists">Your Wishlist</a>
                                 </li>
                                 <li>
-                                    <a href="/account/orders">Order History</a>
+                                    <a href="https://www.allsale.co.za/login?returnUrl=%2faccount%2forders">Order History</a>
                                 </li>
                                 <li>
-                                    <a href="/return">Log a Free Return</a>
+                                    <a href="https://www.allsale.co.za/return">Log a Free Return</a>
                                 </li>
                                 <li>
-                                    <a href="/account/details">Manage Your Details</a>
+                                    <a href="https://www.allsale.co.za/login?returnUrl=%2faccount%2fdetails">Manage Your Details</a>
                                 </li>
                             </ul>
                         </div>
@@ -80,16 +80,16 @@ class Footer extends React.Component {
                             <span className="heading">GET TO KNOW US</span>
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="/aboutus">About AllSale</a>
+                                    <a href="https://www.allsale.co.za/aboutus">About AllSale</a>
                                 </li>
                                 <li>
-                                    <a href="/whoweare">Meet the Team</a>
+                                    <a href="https://www.allsale.co.za/whoweare">Meet the Team</a>
                                 </li>
                                 <li>
-                                    <a href="/termsandconditions">Terms & Conditions</a>
+                                    <a href="https://www.allsale.co.za/termsandconditions">Terms & Conditions</a>
                                 </li>
                                 <li>
-                                    <a href="/privacypolicy">Privacy Policy</a>
+                                    <a href="https://www.allsale.co.za/privacypolicy">Privacy Policy</a>
                                 </li>
                             </ul>
                         </div>
@@ -117,7 +117,7 @@ class Footer extends React.Component {
                     <div className="container border-0">
                         <div className="row">
                             <div className="d-none d-sm-block col-12 col-sm-3 pt-sm-4 pr-sm-5 pb-sm-4 pl-0 pl-sm-5 guide footer-logo">
-                                <a href="/">
+                                <a href="https://www.allsale.co.za/">
                                     <img
                                         src="/static/images/new-logo.svg"
                                         width="100%"
